@@ -54,6 +54,19 @@ img {
   margin-inline: auto;
 }
 
-main {
-  margin-top: 40px;
+/* utility-first */
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-flow-col-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+  gap: 16px;
 }
